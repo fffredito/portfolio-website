@@ -21,7 +21,10 @@ body {
     margin-left: 3%;
     padding: 3px;
     background-image: url("./assets/img/flowr-scan.jpeg");
-    background-position: 58% 47%;
+    /* background-image: url('assets/img/project-gifs/feedback-background.gif'); */
+    background-position: 66% 47%;
+    /* background-size: cover;
+    background-position:  58% 47%;; */
     border-radius: 10px;
 }
 
@@ -242,3 +245,11 @@ body {
     padding:0;
     margin:0;
 }
+
+@media screen and (max-width: 481px){
+
+
+    /*write your CSS-Code here*/
+  
+  
+  }
