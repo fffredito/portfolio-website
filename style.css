@@ -46,12 +46,12 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-size:calc(12px + .2vw);
+    font-size:calc(10px + .2vw);
     /* border: 1px solid red; */
 }
 
 .subhead {
-    margin-top: -25px;
+    margin-top: -20px;
 }
 
 .navigation {
