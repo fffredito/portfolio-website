@@ -73,7 +73,7 @@ body {
 
 .small-menu {
     /* border: 1px solid rgb(69, 255, 137); */
-    margin-top: 70px;
+    margin-top: 55px;
     display: flex;
     flex-direction: column;
     justify-content: center;
