@@ -19,14 +19,15 @@ body {
 }
 
 .nav-container {
-    max-width: 21vw;
+    max-width: 42vw;
     height: 45vh;
-    position: fixed;
-    display: block;
+    position:relative;
+    display: flex;
+    flex-direction: column;
     /* border: 1px solid red; */
     margin-top: 1.8rem;
     margin-left: 3%;
-    padding: 3px;
+    padding: 20px;
     background-image: url("./assets/img/flowr-scan.jpeg");
     background-position: 66% 47%;
     /* background-size: cover;
@@ -75,15 +76,13 @@ body {
 .main-menu {
     font-size: 23px;;
     padding-top: 13px;
-    padding-left: 20%;
+    padding-left: 10%;
 }
 
 .small-menu {
     /* border: 1px solid rgb(69, 255, 137); */
     margin-top: 40px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    padding-left: 10%;
 }
 
 .page-title {
