@@ -236,7 +236,7 @@ body {
 }
 
 .background-landing {
-    background-image: url('assets/img/');
+    background-image: url('assets/img/project-gifs/feedback-background.gif');
     background-size: cover;
     height: 100vh;
     padding:0;
