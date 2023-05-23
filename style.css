@@ -15,12 +15,12 @@ body {
 .main-menu,
 .small-menu,
 .logo {
-    text-shadow: 1px 1px rgb(0, 0, 0);
+    text-shadow: 1px 1px rgb(55, 55, 55);
 }
 
 .nav-container {
     width: 21vw;
-    height: 50vh;
+    height: 45vh;
     position: fixed;
     display: block;
     /* border: 1px solid red; */
@@ -32,7 +32,7 @@ body {
     /* background-size: cover;
     background-position:  58% 47%;; */
     border-radius: 10px;
-    resize: none;
+    white-space: nowrap;
 }
 
 .links {
@@ -58,7 +58,7 @@ body {
 }
 
 .subhead {
-    margin-top: -20px;
+    margin-top: -18px;
 }
 
 .navigation {
@@ -80,7 +80,7 @@ body {
 
 .small-menu {
     /* border: 1px solid rgb(69, 255, 137); */
-    margin-top: 55px;
+    margin-top: 40px;
     display: flex;
     flex-direction: column;
     justify-content: center;
