@@ -233,3 +233,11 @@ body {
     padding-left: 30px;
     padding-right: 30px;
 }
+
+.background-landing {
+    background-image: url('https://lh3.googleusercontent.com/drive-viewer/AFGJ81psDSJK531tiedsrpgCY56eh3ZVZ5CpY5Sw0BTdFnUdCtZNp3-xScyEeReyzokqnqZ-nQ5EzlqI-4OS9_WwVhCW5jGJ=s2560');
+    background-size: cover;
+    height: 100vh;
+    padding:0;
+    margin:0;
+}
