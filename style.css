@@ -13,7 +13,8 @@ body {
 }
 
 .nav-container {
-    width: 18vw;
+    width: 21vw;
+    height: 100%;
     position: absolute;
     display: block;
     /* border: 1px solid red; */
