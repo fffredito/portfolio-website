@@ -13,15 +13,14 @@ body {
 }
 
 .nav-container {
-    width: 20vw;
-    position: fixed;
+    width: 18vw;
+    position: absolute;
     display: block;
     /* border: 1px solid red; */
     margin-top: 1.8rem;
     margin-left: 3%;
     padding: 3px;
     background-image: url("./assets/img/flowr-scan.jpeg");
-    /* background-image: url('assets/img/project-gifs/feedback-background.gif'); */
     background-position: 66% 47%;
     /* background-size: cover;
     background-position:  58% 47%;; */
