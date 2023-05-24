@@ -49,7 +49,7 @@ body {
     /* border: 1px solid red; */
     width: 17%;
     min-width: 15%;
-    height: auto;
+    height: fit-content;
     position: fixed;
     left: 4%;
     margin-top: 3%;
