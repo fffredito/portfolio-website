@@ -12,20 +12,15 @@ body {
     color: rgb(255, 255, 255);
 }
 
-.main-menu,
-.small-menu,
 .logo {
     text-shadow: 1px 1px rgb(55, 55, 55);
 }
 
 .nav-container {
-    max-width: 42vw;
-    height: 45vh;
-    position:relative;
-    display: flex;
-    flex-direction: column;
     /* border: 1px solid red; */
-    margin-top: 1.8rem;
+    width: 17%;
+    height: fit-content;
+    margin-top: 3%;
     margin-left: 3%;
     padding: 20px;
     background-image: url("./assets/img/flowr-scan.jpeg");
@@ -33,7 +28,16 @@ body {
     /* background-size: cover;
     background-position:  58% 47%;; */
     border-radius: 10px;
-    white-space: nowrap;
+    overflow: hidden;
+}
+
+.padded-nav {
+    /* border: 1px solid red; */
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .links {
@@ -50,20 +54,32 @@ body {
 }
 
 .logo {
+    width: 100%;;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-size:calc(10px + .2vw);
+    font-size: medium;
     /* border: 1px solid red; */
 }
 
-.subhead {
-    margin-top: -18px;
+.name {
+    /* border: 1px solid red; */
+    margin-top: 0px;
+    align-items: center;
 }
 
-.navigation {
-    display: block;
+.subhead {
+    /* border: 1px solid red; */
+    margin-top: -24px;
+}
+
+.nav-menu {
+    width: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
     /* border: 1px solid red; */
 }
 
@@ -74,14 +90,13 @@ body {
 }
 
 .main-menu {
-    font-size: 23px;;
-    padding-top: 13px;
-    padding-left: 10%;
+    font-size: 24px;
+    padding-left: 12%;
+    /* border: 1px solid red; */
 }
 
 .small-menu {
     /* border: 1px solid rgb(69, 255, 137); */
-    margin-top: 40px;
     padding-left: 10%;
 }
 
