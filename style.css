@@ -11,15 +11,7 @@ body {
     background-color: rgb(22, 22, 22);
     color: rgb(255, 255, 255);
 
-    /* zoom: 0.9;
-    transform: scale(0.9);
-    transform-origin: 0 0;
-    -webkit-transform: scale(0.9);
-    -webkit-transform-origin: 0 0;
-    -moz-transform: scale(0.9);
-    -moz-transform-origin: 0 0;
-    -o-transform: scale(0.9);
-    -o-transform-origin: 0 0; */
+    zoom: 0.9;
 }
 
 .logo {
@@ -71,16 +63,16 @@ body {
     justify-content: center;
     align-items: center;
     font-size: medium;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .name {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin-top: 0px;
 }
 
 .subhead {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin-top: -1.5em;
 }
 
