@@ -274,24 +274,37 @@ body {
 }
 
 .background-landing {
-    /* background-image: url('assets/img/project-gifs/feedback-background.gif');
-    background-size: cover; */
-    width: 100%;
-    height: 100%;
+    background-image: url('assets/img/project-gifs/feedback-background.gif');
+    background-size: cover;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
     padding:0;
     margin:0;
     /* transform: scale(1.2); */
 }
 
+.spotify-landing {
+    margin-top: 22em;
+    position: absolute;
+    width: inherit;
+    left: 3%;
+    border-radius: 12px;
+    height: 152px;
+    /* border: 1px solid red; */
+}
+
+.nav-w-spotify {
+    /* border: 1px solid red; */
+    width: 28%;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+}
+
 @media screen and (max-width: 481px){
 
-    .right-frame {
-        flex-direction: row;
-    }
-
-    .logo {
-        font-size: smaller;
-    }
   
   
   }
