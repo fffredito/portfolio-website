@@ -33,7 +33,7 @@ body {
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: fit-content;
+    height: 100%;
     margin-left: 1%;
     margin-right: 2%;
 }
@@ -281,6 +281,10 @@ body {
 
     .right-frame {
         flex-direction: row;
+    }
+
+    .logo {
+        font-size: smaller;
     }
   
   
