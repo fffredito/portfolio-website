@@ -8,8 +8,8 @@
 }
 
 body {
-    margin: 0;
-    padding: 0;
+    margin: 0 auto;
+    padding: 0 1em;
     font-family: 'Sofia Sans Condensed', sans-serif;
     width: 100%;
     height: 100%;
@@ -18,12 +18,6 @@ body {
     background-color: #181a1b;
     color: rgb(255, 255, 255);
     zoom: normal;
-    /* border: 1px solid red; */
-}
-
-.logo {
-    text-shadow: .2px .2px rgb(55, 55, 55);
-    text-align: center;
     /* border: 1px solid red; */
 }
 
@@ -87,8 +81,9 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    text-align: center;
     font-size: small;
+    text-shadow: .2px .2px rgb(55, 55, 55);
+    text-align: center;
     /* border: 1px solid red; */
 }
 
@@ -305,6 +300,86 @@ body {
 
 @media screen and (max-width: 481px){
 
+    .left-frame {
+        margin: 0;
+        padding: 0;
+        width: 0;
+        height: fit-content;
+        display: block;
+        /* border: 1px solid rgb(104, 255, 34); */
+    }
+
+
+    .right-frame {
+        /* border: 1px solid red; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        margin: 0;
+        padding: 2%;
+    }
+
+    .nav-container {
+        border: 1px solid red;
+        width: 100%;
+        height: 10%;
+        margin-left: -4%;
+        margin-top: 0;
+        padding: 0;
+        border-radius: 0px;
+    }
+
+    .logo {
+        padding-top: 3%;
+        /* border: 1px solid red; */
+    }
+
+    .nav-menu {
+        margin-left: 200rem;
+        /* border: 1px solid red; */
+    }
+
+    .page-title {
+        /* border: 1px solid red; */
+        display: flex;
+        text-align: left;
+        margin-top: 20%;
+    }
+
+    .video-showcase {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        height: fit-content;
+    }
+
+    .video-display {
+        /* border: 1px solid red; */
+        width: 100%;
+        max-height: fit-content;
+    }
+
+    .video-display p {
+        margin-top: -9px;
+        /* border: 1px solid red; */
+    }
+    
+    .video-box iframe {
+        /* border: 1px solid red; */
+        width: 100%;
+        height: 300px;
+        display: block;
+    }
+
+    .touchdesigner-showcase {
+        width: 90vw;
+        padding-top: 5%;
+        padding-bottom: 10%;
+        /* border: 1px solid red; */
+    }
   
   
   }
