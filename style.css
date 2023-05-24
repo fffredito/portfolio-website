@@ -3,6 +3,9 @@
 * {
     /* border: 1px solid red; */
 }
+:root {
+    color-scheme: dark !important;
+}
 
 body {
     margin: 0;
@@ -213,8 +216,8 @@ body {
 }
 
 .project-gif {
-    width: 600px;
-    height: 350px;
+    width: 700px;
+    height: 500px;
     padding: 5px;
 }
 
