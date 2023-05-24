@@ -21,6 +21,7 @@ body {
 .nav-container {
     /* border: 1px solid red; */
     width: 17%;
+    min-width: 15%;
     height: fit-content;
     position: fixed;
     left: 4%;
