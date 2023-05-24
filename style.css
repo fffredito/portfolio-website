@@ -22,7 +22,7 @@ body {
 }
 
 .logo {
-    text-shadow: .5px .5px rgb(55, 55, 55);
+    text-shadow: .2px .2px rgb(55, 55, 55);
     text-align: center;
     /* border: 1px solid red; */
 }
@@ -55,7 +55,7 @@ body {
     margin-top: 3%;
     padding: 20px;
     background-image: url("./assets/img/flowr-scan.jpeg");
-    background-position: 66% 47%;
+    background-position: 60% 75%;
     /* background-size: cover;
     background-position:  58% 47%;; */
     border-radius: 10px;
