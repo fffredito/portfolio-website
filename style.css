@@ -16,7 +16,7 @@ body {
 }
 
 .logo {
-    text-shadow: 1px 1px rgb(55, 55, 55);
+    text-shadow: .5px .5px rgb(55, 55, 55);
     /* border: 1px solid red; */
 }
 
@@ -30,7 +30,7 @@ body {
 
 .right-frame {
     /* border: 1px solid red; */
-    display: block;
+    display: flex;
     flex-direction: column;
     width: 100%;
     height: fit-content;
@@ -145,13 +145,10 @@ body {
 }
 
 .general-body {
-    width: 59.5%;
-    max-height: 100%;
-    margin-left: 26%;
+    width: 71%;
+    height: fit-content;
     display: flex;
     flex-direction: row;
-    position: absolute;
-    top: 97px;
     /* border: 1px solid red; */
 }
 
@@ -282,12 +279,8 @@ body {
 
 @media screen and (max-width: 481px){
 
-    .logo {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-size 10px;
-        /* border: 1px solid red; */
+    .right-frame {
+        flex-direction: row;
     }
   
   
