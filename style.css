@@ -17,6 +17,7 @@ body {
 
 .logo {
     text-shadow: .5px .5px rgb(55, 55, 55);
+    text-align: center;
     /* border: 1px solid red; */
 }
 
