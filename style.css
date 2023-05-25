@@ -309,17 +309,18 @@ body {
     body {
         margin: 0;
         padding: 0;
+        /* border: 1px solid rgb(104, 255, 34); */
     }
 
     .left-frame {
         margin: 0;
         padding: 0;
         top: 0;
-        /* border: 1px solid rgb(104, 255, 34); */
+        border: 1px solid rgb(104, 255, 34);
     }
 
     .right-frame {
-        /* border: 1px solid rgb(179, 255, 0); */
+        border: 1px solid rgb(179, 255, 0);
         margin-top: 24%;
         margin-left: -28%;
         padding: 0 5px;
@@ -398,8 +399,7 @@ body {
     }
 
     .video-display,
-    .general-body,
-    .mixes-layout {
+    .general-body {
         /* border: 1px solid red; */
         width: fit-content;
     }
@@ -451,33 +451,35 @@ body {
     }
 
     .mixes-layout {
-        /* border: 1px solid red; */
-        width: inherit;
-        padding-top: 3%;
-        padding-bottom: 10%;
+        border: 1px solid red;
+        width: 100%;
+        display: flex;
         justify-content: center;
         align-items: center;
     }
 
     .mixes-scroll {
-        /* border: 1px solid rgb(255, 5, 5); */
-        margin: 0;
-        display: flex;
+        border: 1px solid rgb(255, 5, 5);
+        display: inline-flex;
         flex-direction: column;
-        justify-content: center;
         align-items: center;
-        scroll-behavior: smooth;
     }
 
     .individual-mix {
-        /* border: 1px solid hsl(181, 100%, 50%); */
+        border: 1px solid hsl(181, 100%, 50%);
         padding: 3px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+    }
+
+    .right-frame-two {
+        border: 1px solid rgb(179, 255, 0);
+        margin-top: 24%;
+        margin-left: -28%;
+        padding: 0 5px;
     }
   
+    .cover-art-format {
+        width: 300px;
+    }
   
   }
 
