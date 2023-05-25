@@ -322,7 +322,7 @@ body {
         /* border: 1px solid red; */
         display: flex;
         margin: 0;
-        padding: 0;
+        padding: 0 10px;
     }
 
     .nav-container {
