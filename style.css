@@ -470,9 +470,9 @@ body {
         /* border: 1px solid hsl(181, 100%, 50%); */
         padding: 3px;
     }
+
     .cover-art-format {
-        width: fit-content;
-        height: 300px;
+        height: fit-content;
     }
   
   
