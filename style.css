@@ -319,7 +319,7 @@ body {
 
 
     .right-frame {
-        border: 1px solid red;
+        /* border: 1px solid red; */
         display: flex;
         margin: 0;
         padding: 0;
