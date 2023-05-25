@@ -464,9 +464,10 @@ body {
         padding: 0;
         top: 0;
         width: 100%;
-        height: fit-content;
+        height: 100;
         display: flex;
         justify-content: center;
+        align-items: center;
         /* border: 1px solid rgb(104, 255, 34); */
     }
 
@@ -474,9 +475,8 @@ body {
         /* border: 1px solid red; */
         width: 60%;
         height: fit-content;
-        margin-top: 10%;
         position: relative;
-        padding: 20px;
+        padding: 0 20px;
         background-image: url("assets/img/project-gifs/feedback-background.gif");
         background-size: cover;
         background-position: 60% 75%;
@@ -484,12 +484,12 @@ body {
         background-position:  58% 47%;; */
         border: 3mm ridge rgba(211, 220, 50, .6);
         border-radius: 10px;
-        opacity: 95%;
     }
 
     .padded-nav-landing {
         /* border: 1px solid red; */
         width: 100%;
+        height: fit-content;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -497,14 +497,19 @@ body {
     }
 
     .logo-landing {
+        width: 100%;
+        margin-top: 0px;
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
         /* border: 1px solid red; */
-        margin: 0;
     }
 
     .name-landing {
         font-size: 400%;
+        width: inherit;
+        display: flex;
         line-height: 50px;
         text-align: center;
         /* border: 1px solid red; */
@@ -512,18 +517,22 @@ body {
 
     .subhead-landing {
         margin-top: -45px;
+        width: inherit;
+        display: flex;
         font-size: 200%;
+        justify-content: center;
         text-align: center;
         /* border: 1px solid red; */
     }
 
     .nav-menu-landing {
         /* border: 1px solid red; */
-        width: 100%;
+        width: inherit;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        margin-bottom: 8%;
     }
 
     .main-menu-landing {
