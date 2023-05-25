@@ -438,7 +438,7 @@ body {
   
   }
 
-  @media screen and (max-width: 800px){
+  @media screen and (max-width: 1920px){
 
     .background-landing {
         background-image: url('assets/img/project-gifs/feedback-background.gif');
@@ -542,7 +542,7 @@ body {
     }
 
     .links-landing:hover {
-        font-size: 34px;
+        font-size: 33px;
         color: rgb(104, 218, 32);
     }
     
