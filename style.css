@@ -458,7 +458,7 @@ body {
     }
 
     .mixes-scroll {
-        border: 1px solid rgb(255, 5, 5);
+        /* border: 1px solid rgb(255, 5, 5); */
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -477,8 +477,8 @@ body {
     }
   
     .cover-art-format {
-        width: 400px;
-        height: 400px;
+        width: 350px;
+        height: 350px;
     }
   
   }
