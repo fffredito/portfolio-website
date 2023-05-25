@@ -320,7 +320,6 @@ body {
 
     .right-frame {
         /* border: 1px solid rgb(179, 255, 0); */
-        display: block;
         margin-top: 24%;
         margin-left: -28%;
         padding: 0 5px;
@@ -453,12 +452,16 @@ body {
 
     .mixes-layout {
         /* border: 1px solid red; */
+        width: inherit;
         padding-top: 3%;
         padding-bottom: 10%;
+        justify-content: center;
+        align-items: center;
     }
 
     .mixes-scroll {
         /* border: 1px solid rgb(255, 5, 5); */
+        margin: 0;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -469,10 +472,10 @@ body {
     .individual-mix {
         /* border: 1px solid hsl(181, 100%, 50%); */
         padding: 3px;
-    }
-
-    .cover-art-format {
-        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
   
   
