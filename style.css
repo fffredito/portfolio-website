@@ -484,7 +484,7 @@ body {
     }
 
     .padded-nav-landing {
-        border: 1px solid red;
+        /* border: 1px solid red; */
         width: 100%;
         display: flex;
         flex-direction: column;
@@ -493,7 +493,6 @@ body {
     }
 
     .logo-landing {
-        padding-top: 1.5%;
         display: flex;
         flex-direction: column;
         /* border: 1px solid red; */
@@ -501,21 +500,16 @@ body {
     }
 
     .name-landing {
-        width: 100%;
-        font-size: 80px;
-        text-indent: 0;
-        line-height: 70%;
+        font-size: 400%;
+        line-height: 50px;
         text-align: center;
-        justify-content: center;
         /* border: 1px solid red; */
     }
 
     .subhead-landing {
-        width: 100%;
-        margin-top: -16%;
-        font-size: 40px;
+        margin-top: -45px;
+        font-size: 200%;
         text-align: center;
-        justify-content: center;
         /* border: 1px solid red; */
     }
 
@@ -529,7 +523,7 @@ body {
     }
 
     .main-menu-landing {
-        font-size: 35px;
+        font-size: 30px;
         width: inherit;
         display: flex;
         flex-direction: column;
@@ -546,4 +540,10 @@ body {
         display: flex;
         flex-direction: row;
     }
+
+    .links-landing:hover {
+        font-size: 34px;
+        color: rgb(104, 218, 32);
+    }
+    
   }
