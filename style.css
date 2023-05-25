@@ -452,16 +452,11 @@ body {
     .background-landing {
         background-image: url('assets/img/project-gifs/feedback-background.gif');
         background-size: cover;
+        background-position: 60% 75%;
         position: fixed;
         padding:0;
         margin:0;
         /* transform: scale(1.2); */
-    }
-
-    .background-landing {
-        background-image: url('assets/img/project-gifs/feedback-background.gif');
-        background-size: contain no-repeat;
-        background-position: 60% 75%;
     }
 
     .left-frame-landing {
