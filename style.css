@@ -484,8 +484,9 @@ body {
     }
 
     .padded-nav-landing {
-        /* border: 1px solid red; */
-        display: inline-flex;
+        border: 1px solid red;
+        width: 100%;
+        display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
@@ -506,7 +507,7 @@ body {
         line-height: 70%;
         text-align: center;
         justify-content: center;
-        border: 1px solid red;
+        /* border: 1px solid red; */
     }
 
     .subhead-landing {
@@ -515,7 +516,7 @@ body {
         font-size: 40px;
         text-align: center;
         justify-content: center;
-        border: 1px solid red;
+        /* border: 1px solid red; */
     }
 
     .nav-menu-landing {
