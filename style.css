@@ -477,7 +477,8 @@ body {
         margin-top: 10%;
         position: relative;
         padding: 20px;
-        background-image: url("./assets/img/flowr-scan.jpeg");
+        background-image: url("assets/img/project-gifs/feedback-background.gif");
+        background-size: cover;
         background-position: 60% 75%;
         /* background-size: cover;
         background-position:  58% 47%;; */
