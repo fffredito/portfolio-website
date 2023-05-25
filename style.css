@@ -338,7 +338,7 @@ body {
 
     .logo {
         padding-top: 2%;
-        display: inline-flex;
+        display: flex;
         /* border: 1px solid red; */
         margin: 0;
     }
