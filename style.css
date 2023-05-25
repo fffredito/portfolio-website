@@ -377,6 +377,13 @@ body {
         padding-left: 20px;
     }
 
+    .page-subtitle {
+        /* border: 1px solid red; */
+        display: flex;
+        text-align: center;
+        padding-left: 20px;
+    }
+
     .video-showcase {
         display: flex;
         flex-direction: column;
