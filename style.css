@@ -305,7 +305,7 @@ body {
 
     .background-landing {
         background-image: url('assets/img/project-gifs/feedback-background.gif');
-        background-size: contain;
+        background-size: auto;
         background-position: 60% 75%;
     }
 
