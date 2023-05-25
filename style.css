@@ -450,8 +450,8 @@ body {
   @media screen and (max-width: 1920px){
 
     .background-landing {
-        background-image: url('assets/img/project-gifs/feedback-background.gif');
-        background-size: contain no-repeat;
+        background-image: url('');
+        background-size: cover;
         background-position: 60% 75%;
         position: fixed;
         padding:0;
