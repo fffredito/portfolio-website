@@ -298,6 +298,11 @@ body {
 
 @media screen and (max-width: 550px){
 
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
     .background-landing {
         background-image: url('assets/img/project-gifs/feedback-background.gif');
         background-size: cover;
@@ -308,21 +313,16 @@ body {
         margin: 0;
         padding: 0;
         width: 0;
-        height: fit-content;
         display: block;
         /* border: 1px solid rgb(104, 255, 34); */
     }
 
 
     .right-frame {
-        /* border: 1px solid red; */
+        border: 1px solid red;
         display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        width: 100vw;
         margin: 0;
-        padding: 2%;
+        padding: 0;
     }
 
     .nav-container {
@@ -337,7 +337,7 @@ body {
 
 
     .logo {
-        padding-top: 2%;
+        padding-top: 1.5%;
         display: flex;
         /* border: 1px solid red; */
         margin: 0;
