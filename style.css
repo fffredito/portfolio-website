@@ -505,7 +505,8 @@ body {
         text-indent: 0;
         line-height: 70%;
         text-align: center;
-        /* border: 1px solid red; */
+        justify-content: center;
+        border: 1px solid red;
     }
 
     .subhead-landing {
@@ -513,7 +514,8 @@ body {
         margin-top: -16%;
         font-size: 40px;
         text-align: center;
-        /* border: 1px solid red; */
+        justify-content: center;
+        border: 1px solid red;
     }
 
     .nav-menu-landing {
