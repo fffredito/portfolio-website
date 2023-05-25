@@ -379,8 +379,9 @@ body {
 
     .page-subtitle {
         /* border: 1px solid red; */
-        display: flex;
-        text-align: center;
+        display: block;
+        text-align: left;
+        font-size: 15px;
         padding-left: 20px;
     }
 
@@ -392,7 +393,8 @@ body {
         height: fit-content;
     }
 
-    .video-display {
+    .video-display,
+    .general-body {
         /* border: 1px solid red; */
         width: 100%;
         max-height: fit-content;
@@ -410,7 +412,14 @@ body {
         display: block;
     }
 
+    .touchdesigner-showcase {
+        padding-top: 5%;
+        padding-bottom: 10%;
+        /* border: 1px solid red; */
+    }
+
     .gif-group {
+        display: flex;
         width: 130%;
         margin-left: 0px;
         padding-top: 4%;
