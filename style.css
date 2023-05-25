@@ -160,11 +160,10 @@ body {
 .video-display-two {
     /* border: 1px solid red; */
     width: inherit;
-    max-height: fit-content;
 }
 
 .video-display p {
-    margin-top: -9px;
+    margin-top: 0;
     /* border: 1px solid red; */
 }
 
@@ -183,6 +182,11 @@ body {
     align-items: center;
     padding-left: 10px;
     padding-right: 10px;
+}
+
+.desc {
+    /* border: 1px solid red; */
+    margin-top: -10px;
 }
 
 .left-video,
@@ -508,9 +512,6 @@ body {
         display: none;
     }
 
-    .video-display {
-        margin-bottom: 10%;
-    }
 
     .project-gif {
         width: 450px;
